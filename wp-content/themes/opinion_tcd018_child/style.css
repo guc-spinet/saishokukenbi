@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+Theme Name:     Opinion_child
+Theme URI:      http://saishokukenbi.jp/
+Description:    親テーマ「opinion」からのデザインカスタム
+Author:         Akiyoshi Noda
+Template:       opinion_tcd018
+Version:        1.0
+*/
+
+@import url("../opinion_tcd018/style.css");
+
+.line_left{
+    width: 300px;
+    position: relative;
+    left: 5px;
+    background: #eee;
+    text-align: center;
+}
+.line_right{
+    width: 300px;
+    position: relative;
+    right: 5px;
+    background: #eee;
+    text-align: center;
+}
+
+#paypal_submit_btn {
+     background-image: url('http://saishokukenbi.jp/wp-content/uploads/2014/10/submit_btn.gif');
+     width: 250px;
+     height: 50px;
+     border: none;
+}

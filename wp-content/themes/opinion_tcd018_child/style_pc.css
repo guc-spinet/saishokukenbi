@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------------
+
+ pc style setting
+
+---------------------------------------------------------------------- */
+
+@import url("../opinion_tcd018/style_pc.css");
+
+/*community */
+.page-template-page-community-php #global_menu { width:950px; }
+.page-template-page-community-php #contents { width:950px; }
+.page-template-page-community-php #left_col { float:none; width:950px; }
+
+.archive_list_link{
+    text-decoration: none;
+    font-size: 11px;
+    background: url(img/common/arrow1.png) no-repeat left 4px;
+    font-weight: bold;
+    color: #999;
+}
+
+.archive_footer{
+    text-align: right;
+}
+
+.left_block{
+    width: 30%;
+    max-width: 250px;
+    float: left;
+}
+.right_block{
+    width: 70%;
+    max-width: 700px;
+    float: right;
+}
